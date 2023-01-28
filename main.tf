@@ -43,7 +43,7 @@ resource "aws_vpc" "this" {
 }
 
 resource "aws_vpc_ipv4_cidr_block_association" "this" {
-  count = local.create_vpc && length(var.secondary_cidr_blocks) > 0 ? length(var.secondary_cidr_blocks) : 0
+  count = local.create_vpc && length(var.secondary_cidr_blocks) > 0 ? length(var.secondary_cidr_blocks) 
 
   # Do not turn this into `local.vpc_id`
   vpc_id = aws_vpc.this[0].id
