@@ -98,7 +98,7 @@ resource "aws_default_security_group" "this" {
 ################################################################################
 
 resource "aws_vpc_dhcp_options" "this" {
-  count = local.create_vpc && var.enable_dhcp_options ? 1 : 0
+  count = local.create_vpc && var.enable_dhcp_options
 
   domain_name          = var.dhcp_options_domain_name
   domain_name_servers  = var.dhcp_options_domain_name_servers
