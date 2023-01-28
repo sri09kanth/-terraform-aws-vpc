@@ -106,12 +106,6 @@ resource "aws_vpc_dhcp_options" "this" {
   netbios_name_servers = var.dhcp_options_netbios_name_servers
   netbios_node_type    = var.dhcp_options_netbios_node_type
 
-  tags = merge(
-    { "Name" = var.name },
-    var.tags,
-    var.dhcp_options_tags,
-  )
-}
 
 resource "aws_vpc_dhcp_options_association" "this" {
   count = local.create_vpc && var.enable_dhcp_options ? 1 : 0
