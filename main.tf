@@ -86,12 +86,7 @@ resource "aws_default_security_group" "this" {
     }
   }
 
-  tags = merge(
-    { "Name" = coalesce(var.default_security_group_name, var.name) },
-    var.tags,
-    var.default_security_group_tags,
-  )
-}
+ 
 
 ################################################################################
 # DHCP Options Set
