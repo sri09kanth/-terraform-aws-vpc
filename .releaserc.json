@@ -24,7 +24,7 @@
         "labels": false,
         "releasedLabels": false
       }
-    ],
+    ]
     [
       "@semantic-release/changelog",
       {
