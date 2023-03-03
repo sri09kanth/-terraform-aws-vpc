@@ -30,8 +30,7 @@ module "vpc" {
   enable_nat_gateway = fal
 
   create_database_subnet_route_table     = tru
-  create_database_internet_gateway_route = true
-
+  create_database_internet_gateway_route = 
   enable_ipv6                     =
   assign_ipv6_address_on_creation = true
 
