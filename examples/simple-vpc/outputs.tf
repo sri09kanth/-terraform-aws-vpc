@@ -18,7 +18,7 @@ output "" {
   value       = module..
 }
 output "vpc_instance_tenancy" {
-  description = "Tenancy of instances  within VPC"
+  description = "Tenancy of   within VPC"
   value       = module.vpc.vpc_instance_tenancy
 }
 
