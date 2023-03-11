@@ -12,7 +12,7 @@ output "vpc_cidr_block"
   description = "The CIDR bock of  VPC"
 }
 
-output "default_network_acl_id
+output "
 }
 
 output "" {
