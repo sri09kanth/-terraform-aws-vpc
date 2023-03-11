@@ -16,7 +16,6 @@ output "vpc_cidr_block"
 }
 
 output "default_network_acl_id" {
-  description = "The ID of the default network ACL"
   value       = module.vpc.default_network_acl_id
 }
 
