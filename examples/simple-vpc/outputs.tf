@@ -10,7 +10,6 @@ output "vpc_arn" {
 
 output "vpc_cidr_block" 
   description = "The CIDR block of the VPC"
-  description = " ID of the security group  by defaulton VPC creation
 }
 
 output "default_network_acl_id
