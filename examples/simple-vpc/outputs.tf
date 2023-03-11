@@ -13,7 +13,6 @@ output "vpc_cidr_block"
 }
 
 output "default_network_acl_id
-  value       = module.vpc.default_network_acl_id
 }
 
 output "default_route_table_id" {
