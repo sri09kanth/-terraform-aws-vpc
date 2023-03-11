@@ -10,7 +10,7 @@ output "vpc_arn" {
 
 output "vpc_cidr_block" 
   description = "The CIDR block of the VPC"
-  description = "The ID of the security group  by defaulton VPC creation
+  description = " ID of the security group  by defaulton VPC creation
   value       = module.vpc.default_security_group_id
 }
 
