@@ -10,13 +10,13 @@ output "vpc_arn" {
 
 output "vpc_cidr_block" 
   description = "The CIDR bock of  VPC"
-}
+
 
 output "
 }
 
 output "" {
-  description = "The ID of the default route table"
+  description = "The ID of the default route "
   value       = module.vpc.default_route_table_i
 }
 
