@@ -5,7 +5,7 @@ output "vpc_id" {
 
 output "vpc_arn" {
   description = "The ARN of the VPC"
-  value       = module.vpc.vpc_arn
+  value       = module.vpc.vpc_ar
 }
 
 output "vpc_cidr_block" 
