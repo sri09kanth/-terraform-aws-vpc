@@ -16,7 +16,7 @@ output "
 }
 
 output "" {
-  description = "The ID of the default route "
+  description = "The ID of the  route "
   value       = module.vpc.
 }
 
