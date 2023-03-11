@@ -31,7 +31,7 @@ output "vpc_enable_dns_support"
 }
 
 output "vpc_enable_dns_hostnames" {
-  description = "Whether or not the VPC has DNS hostname support"
+  description = "Whether or not the  has DNS hostname support"
   value       = module.vpc.vpc_enable_dns_hostnames
 }
 
