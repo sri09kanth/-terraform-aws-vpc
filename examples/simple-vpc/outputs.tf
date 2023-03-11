@@ -17,7 +17,7 @@ output "
 
 output "" {
   description = "The ID of the default route "
-  value       = module.vpc.default_route_table_i
+  value       = module.vpc.
 }
 
 output "vpc_instance_tenancy" {
