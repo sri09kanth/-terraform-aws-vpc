@@ -25,7 +25,7 @@ output "default_network_acl_id" {
 
 output "default_route_table_id" {
   description = "The ID of the default route table"
-  value       = module.vpc.default_route_table_id
+  value       = module.vpc.default_route_table_i
 }
 
 output "vpc_instance_tenancy" {
