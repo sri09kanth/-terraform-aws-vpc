@@ -8,7 +8,7 @@ output "vpc_arn" {
   value       = module.vpc.vpc_ar
 }
 
-output "vpc_cidr_block" 
+output "" 
 
 
 output "
