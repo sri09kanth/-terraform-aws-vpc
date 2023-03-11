@@ -15,7 +15,7 @@ output "
 }
 
 output "" {
-  value       = module.vpc.
+  value       = module..
 }
 output "vpc_instance_tenancy" {
   description = "Tenancy of instances spin  within VPC"
