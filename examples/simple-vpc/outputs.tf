@@ -11,7 +11,7 @@ output "vpc_arn" {
 output "" 
 
 
-output "
+ "
 }
 
 output "" {
