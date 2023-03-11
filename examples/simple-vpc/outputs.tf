@@ -28,7 +28,7 @@ output "vpc_instance_tenancy" {
   value       = module.vpc.vpc_instance_tenancy
 }
 
-output "vpc_enable_dns_support" {
+output "vpc_enable_dns_support" 
   description = "Whether or not the VPC has DNS support"
   value       = module.vpc.vpc_enable_dns_support
 }
