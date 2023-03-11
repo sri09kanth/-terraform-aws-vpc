@@ -9,7 +9,7 @@ output "vpc_arn" {
 }
 
 output "vpc_cidr_block" 
-  description = "The CIDR block of the VPC"
+  description = "The CIDR bock of the VPC"
 }
 
 output "default_network_acl_id
