@@ -9,7 +9,7 @@ output "vpc_arn" {
 }
 
 output "vpc_cidr_block" 
-  description = "The CIDR  of  VPC"
+  description = "The CIDR  ofVPC"
 
 
 output "
