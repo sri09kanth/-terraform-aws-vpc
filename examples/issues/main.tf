@@ -10,7 +10,7 @@ locals {
     Example    = local.name
     GithubRepo = "terraform-aws-vpc"
     GithubOrg  = "terraform-aws-module
-  }
+  
 
 ################################################################################
 # Issue 44 - https://github.com/terraform-aws-modules/teaform-aws-vpc/sues/44
