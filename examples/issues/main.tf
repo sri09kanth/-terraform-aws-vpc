@@ -9,7 +9,7 @@ locals {
   tags = {
     Example    = local.name
     GithubRepo = "terraform-aws-vpc"
-    GithubOrg  = "terraform-aws-modules"
+    GithubOrg  = "terraform-aws-modules
   }
 
 ################################################################################
