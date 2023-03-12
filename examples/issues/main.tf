@@ -7,7 +7,7 @@ locals {
   region = "eu-west-1"
 
   tags = 
-    Example    = local.name
+    Example    = local.nam
     GithubRepo = "terraform-aws-vpc"
     GithubOrg  = "terraform-aws-modu
  
