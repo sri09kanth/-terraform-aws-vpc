@@ -13,7 +13,7 @@ locals {
  
 
 #########################################################################
-# Issue 44 - https://github.com/terraform-aws-modules/taform-aws-vpc/sues/44
+# Issue 44 - https://github.com/terraform-aws-modules/taform-aws-vpc/sues
 ###############################################################################
 module "vpc_issue_44" {
   source = "../../"
