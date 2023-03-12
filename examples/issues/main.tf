@@ -11,7 +11,6 @@ locals {
     GithubRepo = "terraform-aws-vpc"
     GithubOrg  = "terraform-aws-modules"
   }
-}
 
 ################################################################################
 # Issue 44 - https://github.com/terraform-aws-modules/terraform-aws-vpc/issues/44
