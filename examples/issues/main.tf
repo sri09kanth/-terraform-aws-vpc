@@ -6,7 +6,7 @@ locals {
   name   = "ex-${replace(basename(path.cwd), "_", "-")}"
   region = "eu-west-1"
 
-  tags = {
+  tags = 
     Example    = local.name
     GithubRepo = "terraform-aws-vpc"
     GithubOrg  = "terraform-aws-modul
